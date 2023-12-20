@@ -1,0 +1,4 @@
+python3 FL_text.py --epochs 50 --num_users 50 --frac .1 --local_ep 3 --local_bs 32 --pre_lr 2e-5 --lr 1e-5 --model distill_bert --dataset ag_news --gpu --optimizer adamw --iid --attack_type ours
+python3 FL_text.py --epochs 50 --num_users 50 --frac .1 --local_ep 3 --local_bs 32 --pre_lr 2e-5 --lr 1e-5 --model distill_bert --dataset ag_news --gpu --optimizer adamw --attack_type ours
+python3 FL_text.py --epochs 50 --num_users 50 --frac .1 --local_ep 3 --local_bs 32 --pre_lr 2e-5 --lr 1e-5 --model distill_bert --dataset sst2 --gpu --optimizer adamw --iid --attack_type ours
+python3 FL_text.py --epochs 50 --num_users 50 --frac .1 --local_ep 3 --local_bs 32 --pre_lr 2e-5 --lr 1e-5 --model distill_bert --dataset sst2 --gpu --optimizer adamw --attack_type ours
